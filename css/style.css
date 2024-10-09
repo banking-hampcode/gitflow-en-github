@@ -1,0 +1,30 @@
+/* Estilo general del contenedor */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilo del botón de inicio de sesión con Facebook */
+.facebook-login-button {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.facebook-login-button:hover {
+    background-color: #2d4373;
+}
