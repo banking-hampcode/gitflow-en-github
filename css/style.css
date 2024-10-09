@@ -15,7 +15,7 @@ h2 {
 
 /* Estilo del botón de inicio de sesión con Facebook */
 .facebook-login-button {
-    background-color: #3b5998;
+    background-color: #000000; /* Cambia el color a negro */
     color: white;
     padding: 10px 20px;
     border: none;
