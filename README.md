@@ -1,4 +1,4 @@
-# GitFlow en GitHub con Visual Studio Code
+# GitFlow en GitHub
 
 Este repositorio contiene una guía para implementar el flujo de trabajo **GitFlow** utilizando **Visual Studio Code** y su extensión de Git, en lugar de comandos directos de Git Flow. A través de esta práctica, aprenderás a manejar ramas y trabajar colaborativamente, integrando nuevas funcionalidades y resolviendo problemas en un entorno controlado.
 
