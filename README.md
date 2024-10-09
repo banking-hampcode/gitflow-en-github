@@ -8,6 +8,8 @@ Este repositorio contiene una guía para implementar el flujo de trabajo **GitFl
 - [Instalación y Configuración](#instalación-y-configuración)
 - [Práctica de GitFlow en GitHub](#práctica-de-gitflow-en-github)
 - [Contribución](#contribución)
+- [Convenciones de Commits](#convenciones-de-commits)
+
 
 
 ## Descripción
@@ -76,3 +78,15 @@ Para contribuir al proyecto, sigue estos pasos:
    ```bash
    git push origin feature/nombre-de-la-funcionalidad
 4. **Crea un Pull Request** en GitHub hacia la rama adecuada (`develop` o `main`) y solicita una revisión antes de fusionar.
+
+## Convenciones de Commits
+
+| Tipo    | Descripción                                     | Ejemplo                                         |
+|---------|-------------------------------------------------|-------------------------------------------------|
+| feat    | Para la adición de una nueva funcionalidad      | `feat: Agregar botón de inicio de sesión`       |
+| fix     | Para la corrección de un error                  | `fix: Corregir error en el inicio de sesión`    |
+| docs    | Para cambios en la documentación                | `docs: Actualizar README con nuevas instrucciones` |
+| style   | Para cambios de formato (espacios, comas, etc.) | `style: Ajustar formato del archivo CSS`        |
+| refactor| Para cambios de refactorización de código       | `refactor: Mejorar lógica de autenticación`     |
+| test    | Para agregar o corregir pruebas                 | `test: Añadir pruebas unitarias para login`     |
+| chore   | Para tareas de mantenimiento                    | `chore: Actualizar dependencias`                |
